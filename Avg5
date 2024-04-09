@@ -20,3 +20,4 @@ WHERE nome NOT LIKE 'GABRIELA BOARATI';
 
 SELECT *
 FROM alunos
+WHERE sexo = 'Feminino' AND nome LIKE '%a%' AND nome NOT LIKE 'GABRIELA BOARATI%';
